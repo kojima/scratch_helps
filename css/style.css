@@ -51,6 +51,15 @@ ul {
   cursor: pointer;
 }
 
+.item.red .title,
+.item.red .sub-title .icon {
+  background-color: rgb(231, 76, 60);
+}
+
+.item.red .title:hover {
+  background-color: rgb(241, 86, 70);
+}
+
 .item.blue .title,
 .item.blue .sub-title .icon {
   background-color: rgb(74, 108, 212);
