@@ -11,6 +11,11 @@ ul {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+  color: #777;
+}
+
 #header {
   position: fixed;
   top: 0;
@@ -35,6 +40,7 @@ ul {
 
 #content {
   margin-top: 64px;
+  min-width: 700px;
 }
 
 .item {
@@ -94,6 +100,24 @@ ul {
 
 .item.orange .title:hover {
   background-color: rgb(235, 179, 36);
+}
+
+.item.midnight-blue .title,
+.item.midnight-blue .sub-title .icon {
+  background-color: rgb(44, 62, 80);
+}
+
+.item.midnight-blue .title:hover {
+  background-color: rgb(52, 73, 94);
+}
+
+.item.yellow .title,
+.item.yellow .sub-title .icon {
+  background-color: rgb(241, 196, 15);
+}
+
+.item.yellow .title:hover {
+  background-color: rgb(241, 196, 15);
 }
 
 .item.green .title,
@@ -181,4 +205,27 @@ ul {
 
 .sub-item .content .scratch-link {
   padding: 24px 48px;
+}
+
+
+.kinect-block-container {
+  position: relative;
+  display: inline-block;
+  height: 360px;
+  overflow-y: auto;
+  border: 1px solid #aaa;
+  background-color: #fff;
+}
+
+.kinect-block {
+  margin-right: 32px;
+}
+
+.kinect-block-text {
+  position: absolute;
+  left: 128px;
+  top: 32px;
+  font-weight: 300;
+  font-size: 24px;
+  color: #777;
 }
