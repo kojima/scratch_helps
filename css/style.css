@@ -138,6 +138,15 @@ a {
   background-color: rgb(56, 214, 123);
 }
 
+.item.navy .title,
+.item.navy .sub-title .icon {
+  background-color: rgb(39, 60, 117);
+}
+
+.item.navy .title:hover {
+  background-color: rgb(49, 70, 127);
+}
+
 .item ul {
   position: relative;
 }
